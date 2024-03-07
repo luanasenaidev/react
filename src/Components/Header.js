@@ -6,7 +6,7 @@ const Header = (props) => {
     <Container>
       {/* Logo */}
       <Logo>
-        <a>
+        <a href="/">
           <img src="/images/Tree.png" alt="" /> 
         </a>
       </Logo>

@@ -3,9 +3,9 @@
 // Importação dos componentes necessários
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Header from "./Componentes/Header";
+import Header from "./Components/Header";
 import Home from "./Components/Home";
-import About from ".C/Components/About";
+import About from "./Components/About";
 import Contacts from "./Components/Contact";
 
 // Componente funcional principal App
