@@ -8,5 +8,6 @@ function App() {
     </div>
   );
 }
+// Meelhoria para claro e escuro
 
 export default App;

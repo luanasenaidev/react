@@ -6,17 +6,23 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f4f4f4;
+  /* Mudando o fundo de tela */
+  background-image: url(fundo.png);
   font-family: Helvetica;
   text-align: center;
 }
 
-/* Estilo para cada quadrado */
+body{
+  background: rgba(255, 255, 255, 0);
+}
+
+
+/* Melhoria: mudança de cor */
 .square {
   width: 100px;
   height: 100px;
-  background-color: #ddd;
-  border: 1px solid #ccc;
+  background-color: #E7BFBF;
+  border: 1px solid #B65E2C;
   font-size: 32px;
   font-weight: bold;
   text-align: center;
@@ -26,7 +32,11 @@ html{
 
 /* Estilo para o vencedor */
 .winner{
-  background-color: #ffcc00;
+  background-color: #D49174;
+}
+/* Melhoria: aparecer também o rosa  */
+.draw{
+  background-color: #E7BFBF;
 }
 
 /* Estilo para o status do jogo */
@@ -42,7 +52,7 @@ html{
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #007bff;
+  background-color: #D49174;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -51,5 +61,11 @@ html{
 
 /* Estilo para o botão bde reiniciar no hover */
 .reset-button:hover {
-  background-color: #0056b3;
+  background-color: #E7BFBF;
+}
+
+/* MELHORIA: MUDANÇA DE COR */
+/* cor da palavra "jogo da velha" */
+.App h1 {
+  color: #B65E2C;
 }
