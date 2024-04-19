@@ -1,0 +1,121 @@
+/* Estilos para o corpo do documento */
+body {
+  font-family: Arial, sans-serif; /* Define a família de fontes para o corpo do documento */
+  background-color: #f4f4f4; /* Define a cor de fundo */
+  padding: 30px; /* Adiciona espaço interno */
+  color: #333; /* Define a cor do texto */
+  background-image: url("./img/bg.jpg"); /* Define uma imagem de fundo */
+  background-size: cover; /* Redimensiona a imagem para cobrir todo o elemento */
+  background-position: center; /* Centraliza a imagem */
+}
+
+/* Estilos para o contêiner principal */
+.app {
+  max-width: 600px; /* Largura máxima */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  padding: 0.5rem 2rem; /* Adiciona espaçamento interno */
+  border-radius: 10px; /* Adiciona bordas arredondadas */
+  background-color: #efefef; /* Cor de fundo */
+}
+
+/* Estilos para os títulos */
+h1 {
+  text-align: center; /* Alinha ao centro */
+}
+
+h2 {
+  margin-bottom: 10px; /* Adiciona margem inferior */
+}
+
+/* Estilos para os parágrafos */
+p {
+  margin: 10px 0; /* Adiciona margem */
+}
+
+/* Estilos para os campos de entrada */
+input {
+  box-sizing: border-box; /* Inclui a largura do preenchimento e da borda na largura total */
+}
+
+/* Estilos para os botões */
+button {
+  background-color: #333974; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  padding: 5px 10px; /* Preenchimento interno */
+  margin-right: 10px; /* Margem direita */
+  border: none; /* Remove a borda */
+  border-radius: 3px; /* Adiciona bordas arredondadas */
+  margin-left: 5px; /* Margem esquerda */
+  cursor: pointer; /* Cursor ao passar */
+  opacity: 0.8; /* Opacidade */
+  transition: 0.3s; /* Transição */
+}
+
+button:hover {
+  opacity: 1; /* Opacidade ao passar o mouse */
+}
+
+/* Estilos para o formulário de tarefas */
+.todo-form {
+  padding-bottom: 1.5rem; /* Adiciona espaço abaixo */
+}
+
+/* Estilos para os campos de entrada de texto e seleção */
+input[type="text"],
+select {
+  padding: 5px; /* Preenchimento interno */
+  margin-bottom: 10px; /* Margem inferior */
+  border: 1px solid #ddd; /* Borda */
+  border-radius: 3px; /* Bordas arredondadas */
+  width: 100%; /* Largura total */
+}
+
+/* Estilos para o botão de completar */
+button.complete {
+  background-color: #5cb85c; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+}
+
+/* Estilos para o botão de remover */
+button.remove {
+  background-color: #d9534f; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+}
+
+/* Estilos para a lista de tarefas */
+.todo-list {
+  margin-bottom: 1rem; /* Margem inferior */
+  padding-bottom: 1rem; /* Preenchimento inferior */
+  border-bottom: 1px solid #555; /* Borda inferior */
+}
+
+/* Estilos para cada tarefa */
+.todo {
+  background-color: #fff; /* Cor de fundo */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 10px; /* Preenchimento */
+  margin-bottom: 10px; /* Margem inferior */
+  border-radius: 5px; /* Bordas arredondadas */
+  display: flex; /* Exibe como flexível */
+  justify-content: space-between; /* Distribui espaço entre os itens */
+  align-items: center; /* Alinha verticalmente */
+}
+
+/* Estilos para os componentes de filtro e pesquisa */
+.filter,
+.search {
+  border-bottom: 1px solid #555; /* Borda inferior */
+  margin-bottom: 1rem; /* Margem inferior */
+  padding-bottom: 1rem; /* Preenchimento inferior */
+}
+
+/* Estilos para as opções de filtro */
+.filter-options {
+  display: flex; /* Exibe como flexível */
+  justify-content: space-between; /* Distribui espaço entre os itens */
+  gap: 3rem; /* Espaçamento entre os itens */
+}
+
+.filter-options div {
+  flex: 1 1 0; /* Configura o comportamento flexível */
+}
