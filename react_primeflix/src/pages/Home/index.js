@@ -17,7 +17,7 @@ import styles from './styles.module.css';
 import api from '../../services/api';
 
 function Home() {
-    const [movies, setMovies] = useState([]);
+    const [movies, setMovies] = useState([]);bbbbbbbbbbbbbb
     const [loading, setLoading] = useState(true);
     const [loadingSearch, setLoadingSearch] = useState(false);
     const [search, setSearch] = useState('');
