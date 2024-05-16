@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Image from '../img/unsplash_Yh0unf5ik0Q.png';
+import Image from '../img/banner.png';
 
 function Slider() {
   return (
